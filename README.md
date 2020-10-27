@@ -26,7 +26,7 @@
   - [6.4 Using example files](#64-using-example-files)
   - [6.5 Testing](#65-testing)
   - [6.6 Assembling case](#66-assembling-case)
-
+- [7. Comments](#7-comments)
 ## 1. Idea
 
 ## 2. Hardware
@@ -695,3 +695,14 @@ If there are some problems with webpage, you are using any collecting scenarios 
 7. Use zip tie to secure both parts of case. You can use side handles to zip tie case to enviroment elements like tree branches or poles.
 
 ![Case assembly](/Augumented_Reality/images/case_assembly_7.jpg)
+
+
+## 6. Comments
+
+### 6.1 TODO
+
+- create HTML file for events scenario
+- describe HTML files for event scenario
+- write about project idea
+- add ilustrations for scenarios
+- grammar check
