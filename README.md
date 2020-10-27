@@ -67,7 +67,7 @@ List of all components needed to assembly device, with extra information useful 
 
 | Component | Description | Photo | USB Power Qty | Battery Power Qty | Solar Power Qty |
 | --- | --- | --- | :---: | :---: | :---: |
-| Wemos Lolin32 lite | Main microcontroller. It's has been replaced with D32 or D32 Pro (which are slightly larger), but is still widely available | ![Wemos](/Pharus/images/Wemos_lolin32.jpg) | 1 | 1 | 1 |
+| Wemos Lolin32 lite | Main microcontroller. It's has been replaced with D32 or D32 Pro (which are slightly larger), but is still widely available | ![Wemos](/images/Wemos_lolin32.jpg) | 1 | 1 | 1 |
 | Card reader | Most basic card reader working on SPI. Be aware of power supply - some of them have built in stabilizer 5V/3.3V and might work with microcontroller without external 5V power supply. Card reader used in this project (and fitting into 3D printed enclosure is 18.5 mm width. Also aim with one without presoldered connectors | ![Card_reader](/Augumented_Reality/images/SD_card_reader.jpg) | 1 | 1 | 1 |
 | microSD card | Use any low storage (under 32 Gb) SDHC card. Speed is not important in this project. SD cards (such as 1 or 2Gb might, or might not work). | ![Card](/Augumented_Reality/images/SD_card.jpg) | 1 | 1 | 1 |
 | USB cable | Any microUSB type B cable, standard for most smartphones, preffered lenght of 1.5m | ![USB Cable](/Augumented_Reality/images/USB_cable.jpg) | 1 | Only for upload | 1 |
