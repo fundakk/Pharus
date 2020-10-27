@@ -697,9 +697,9 @@ If there are some problems with webpage, you are using any collecting scenarios 
 ![Case assembly](/Augumented_Reality/images/case_assembly_7.jpg)
 
 
-## 6. Comments
+## 7. Comments
 
-### 6.1 TODO
+### 7.1 TODO
 
 - create HTML file for events scenario
 - describe HTML files for event scenario
