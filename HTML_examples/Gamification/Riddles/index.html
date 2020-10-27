@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html style="height: 100%; font-family: Helvetica; display: inline-block; margin: 0px auto; text-align: center; color: white;">
+	<head>
+	</head>
+	
+	<body style="height: calc(100% - 1em); background-color: black">
+	
+		<script>
+			function check() {
+				var answer;
+				var correct_answer = "orange"
+				
+				answer = document.getElementById("input form").value;
+				
+				answer = answer.toLowerCase()
+				correct_answer = correct_answer.toLowerCase()
+				
+				if(answer == correct_answer){
+					localStorage.part1 = "1";
+					document.getElementById("overlay").style.display = "none";
+					if(localStorage.part1 == "1"){
+						document.getElementById("d1").style.opacity = "0";
+						document.getElementById("overlay").style.display = "none";
+					}
+					if(localStorage.part2 == "1"){
+						document.getElementById("d2").style.opacity = "0";
+						document.getElementById("overlay").style.display = "none";
+					}
+					if(localStorage.part3 == "1"){
+						document.getElementById("d3").style.opacity = "0";
+						document.getElementById("overlay").style.display = "none";
+					}
+					if(localStorage.part4 == "1"){
+						document.getElementById("d4").style.opacity = "0";
+						document.getElementById("overlay").style.display = "none";
+					}
+					if(localStorage.part5 == "1"){
+						document.getElementById("d5").style.opacity = "0";
+						document.getElementById("overlay").style.display = "none";
+					}
+					if(localStorage.part6 == "1"){
+						document.getElementById("d6").style.opacity = "0";
+						document.getElementById("overlay").style.display = "none";
+					}
+				} else {
+					document.getElementById("ans").innerHTML = "Wrong answer";
+				}
+			}
+		</script>
+		
+		<div id="overlay" style="position: fixed; display: block; width: 100%; height: 100%; top: 0; left: 0; right: 0; bottom: 0; background-color: black; z-index: 2;">
+			<div>
+				<br><br>
+				<h1>What color is orange?</h1>
+				<input id="input form" style="text-align: center; font-size: 80px; width: 80%; padding: 60px 20px; margin: 10% 0; display: inline-block; border: 1px solid #ccc; border-radius: 4px; box-sizing: border-box;">
+				<br>
+				<button onclick="check()" style="width: 40%; height: 200px; background-color: gray; color: white; margin: 10% 0%; border: none; border-radius: 4px;">Answer</button>
+				<br><h1 id="ans"></h1>
+			</div>
+		</div>
+		
+		<div style="width: 100%; height: 5%; float: left; background-color: black">
+			<h1>
+				TITLE
+			</h1>
+		</div>
+		
+		<div style="width: 100%; height: 95%; float: left; background-image: url('image1.jpg'); background-size: contain; background-color: black; background-repeat: no-repeat; background-position: 50% 50%; pointer-events: none">
+		
+			<div id="d1" style="width: 50%; height: 33.33333%; float: left; background-color: black; opacity: 1"></div>
+
+			<div id="d2" style="width: 50%; height: 33.33333%; float: left; background-color: black; opacity: 1"></div>
+
+			<div id="d3" style="width: 50%; height: 33.33333%; float: left; background-color: black; opacity: 1"></div>
+
+			<div id="d4" style="width: 50%; height: 33.33333%; float: left; background-color: black; opacity: 1"></div>
+
+			<div id="d5" style="width: 50%; height: 33.33333%; float: left; background-color: black; opacity: 1"></div>
+
+			<div id="d6" style="width: 50%; height: 33.33333%; float: left; background-color: black; opacity: 1"></div>
+			
+		</div>
+		
+		<script>
+			if(localStorage.part1 == "1"){
+				document.getElementById("d1").style.opacity = "0";
+				document.getElementById("overlay").style.display = "none";
+			}
+			if(localStorage.part2 == "1"){
+				document.getElementById("d2").style.opacity = "0";
+				document.getElementById("overlay").style.display = "none";
+			}
+			if(localStorage.part3 == "1"){
+				document.getElementById("d3").style.opacity = "0";
+				document.getElementById("overlay").style.display = "none";
+			}
+			if(localStorage.part4 == "1"){
+				document.getElementById("d4").style.opacity = "0";
+				document.getElementById("overlay").style.display = "none";
+			}
+			if(localStorage.part5 == "1"){
+				document.getElementById("d5").style.opacity = "0";
+				document.getElementById("overlay").style.display = "none";
+			}
+			if(localStorage.part6 == "1"){
+				document.getElementById("d6").style.opacity = "0";
+				document.getElementById("overlay").style.display = "none";
+			}
+		</script>		
+		
+	</body>
+	
+</html>
