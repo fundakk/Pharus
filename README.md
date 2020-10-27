@@ -68,17 +68,17 @@ List of all components needed to assembly device, with extra information useful 
 | Component | Description | Photo | USB Power Qty | Battery Power Qty | Solar Power Qty |
 | --- | --- | --- | :---: | :---: | :---: |
 | Wemos Lolin32 lite | Main microcontroller. It's has been replaced with D32 or D32 Pro (which are slightly larger), but is still widely available | ![Wemos](/images/Wemos_lolin32.jpg) | 1 | 1 | 1 |
-| Card reader | Most basic card reader working on SPI. Be aware of power supply - some of them have built in stabilizer 5V/3.3V and might work with microcontroller without external 5V power supply. Card reader used in this project (and fitting into 3D printed enclosure is 18.5 mm width. Also aim with one without presoldered connectors | ![Card_reader](/Augumented_Reality/images/SD_card_reader.jpg) | 1 | 1 | 1 |
-| microSD card | Use any low storage (under 32 Gb) SDHC card. Speed is not important in this project. SD cards (such as 1 or 2Gb might, or might not work). | ![Card](/Augumented_Reality/images/SD_card.jpg) | 1 | 1 | 1 |
-| USB cable | Any microUSB type B cable, standard for most smartphones, preffered lenght of 1.5m | ![USB Cable](/Augumented_Reality/images/USB_cable.jpg) | 1 | Only for upload | 1 |
-| Batteries | These are standard 18650 batteries widely used in many application. Do not believe ultra high capacities. For longest working time choose original batteries like sony with 2250 mAh. It's best solution, when batteries are only power source so four of these can support power for over 100 hours. With solar power you can settle with cheap ones (mine are 1800 mAh- tested) and cost 1/3 of original price  | ![18650](/Augumented_Reality/images/18650.jpg) | 0 | 4 | 2/4 |
-| Battery holders | Any most basic battery holders, smaller the better, just to allow easy wire-to-wire connection. | ![Battery_holder](/Augumented_Reality/images/battery_holder.jpg) | 0 | 4 | 2/4 |
-| Battery connectors | JST PH2.0 2PIN. Be aware of colors and +/- on Lolin board since they might not match with red and black colors on connectors (and reversing polarity will fry battery charging controller | ![Battery_connectors](/Augumented_Reality/images/JST_2PIN.jpg) | 0 | 1 | 1 |
-| Wires | I've been using 28AWG wires, but any would fit, smaller diameter is better for more flexibility | ![Wires](/Augumented_Reality/images/wires.jpg) | 0 | 1 | 1 |
-| Solar power | Any solar panel 5-6V and between 2 to 3 W. Maximum charging current is 500 mA. Also solar panels cannot be cheap - 2 euro solar panel won't be 2W. First of all check solar panel size - it should be at least 11x11 cm to provide enough power | ![Solar_Panel](/Augumented_Reality/images/solar_panel.jpg) | 0 | 0 | 1 |
-| Zip ties | Zip ties for holding two pieces of case together. You need single 350x5mm zip tie, or multiple shorter ones. | ![Zip ties](/Augumented_Reality/images/zip_ties.jpg) | Only with case | Only with case | Only with case |
-| Heat shrink tubes | Or other insulation for soldered wires of batteries holders. For joining 4 wires you need 5/2.5mm and for 2 wires 4/2mm. | ![Shrink tubes](/Augumented_Reality/images/shrink_tubes.jpg) | 0 |  4 cm |  4 cm |
-| Filament | Any filament that suits your prefered printing style | ![Wires](/Augumented_Reality/images/filament.jpg) | Only with case | Only with case | Only with case |
+| Card reader | Most basic card reader working on SPI. Be aware of power supply - some of them have built in stabilizer 5V/3.3V and might work with microcontroller without external 5V power supply. Card reader used in this project (and fitting into 3D printed enclosure is 18.5 mm width. Also aim with one without presoldered connectors | ![Card_reader](/images/SD_card_reader.jpg) | 1 | 1 | 1 |
+| microSD card | Use any low storage (under 32 Gb) SDHC card. Speed is not important in this project. SD cards (such as 1 or 2Gb might, or might not work). | ![Card](/images/SD_card.jpg) | 1 | 1 | 1 |
+| USB cable | Any microUSB type B cable, standard for most smartphones, preffered lenght of 1.5m | ![USB Cable](/images/USB_cable.jpg) | 1 | Only for upload | 1 |
+| Batteries | These are standard 18650 batteries widely used in many application. Do not believe ultra high capacities. For longest working time choose original batteries like sony with 2250 mAh. It's best solution, when batteries are only power source so four of these can support power for over 100 hours. With solar power you can settle with cheap ones (mine are 1800 mAh- tested) and cost 1/3 of original price  | ![18650](/images/18650.jpg) | 0 | 4 | 2/4 |
+| Battery holders | Any most basic battery holders, smaller the better, just to allow easy wire-to-wire connection. | ![Battery_holder](/images/battery_holder.jpg) | 0 | 4 | 2/4 |
+| Battery connectors | JST PH2.0 2PIN. Be aware of colors and +/- on Lolin board since they might not match with red and black colors on connectors (and reversing polarity will fry battery charging controller | ![Battery_connectors](/images/JST_2PIN.jpg) | 0 | 1 | 1 |
+| Wires | I've been using 28AWG wires, but any would fit, smaller diameter is better for more flexibility | ![Wires](/images/wires.jpg) | 0 | 1 | 1 |
+| Solar power | Any solar panel 5-6V and between 2 to 3 W. Maximum charging current is 500 mA. Also solar panels cannot be cheap - 2 euro solar panel won't be 2W. First of all check solar panel size - it should be at least 11x11 cm to provide enough power | ![Solar_Panel](/images/solar_panel.jpg) | 0 | 0 | 1 |
+| Zip ties | Zip ties for holding two pieces of case together. You need single 350x5mm zip tie, or multiple shorter ones. | ![Zip ties](/images/zip_ties.jpg) | Only with case | Only with case | Only with case |
+| Heat shrink tubes | Or other insulation for soldered wires of batteries holders. For joining 4 wires you need 5/2.5mm and for 2 wires 4/2mm. | ![Shrink tubes](/images/shrink_tubes.jpg) | 0 |  4 cm |  4 cm |
+| Filament | Any filament that suits your prefered printing style | ![Wires](/images/filament.jpg) | Only with case | Only with case | Only with case |
 
 ### 2.3 Tools and machines
 
@@ -86,10 +86,10 @@ List of tool required for this project.
 
 | Tool | Description | Photo | Optional/Necessary |
 | --- | --- | --- | --- |
-| Soldering iron | Any soldering iron, preferably with small tip (for accuracy) | ![Soldering_iron](/Augumented_Reality/images/soldering_iron.jpg) | Necessary |
-| Solder Wire | Lead free soldering iron | ![Soldering_wire](/Augumented_Reality/images/solder_wire.jpg) | Necessary |
-| Knife | Upholstery knife or any other for stripping wires. You can also use wire stripper but due to small diameters and small amount of stripped wire it's easier to use knife | ![Knife](/Augumented_Reality/images/knife.jpg) | Necessary |
-| Generic 3D printer | Used for printing weatherproof case | ![3D printer](/Augumented_Reality/images/3D_printer.jpg) | Optional |
+| Soldering iron | Any soldering iron, preferably with small tip (for accuracy) | ![Soldering_iron](/images/soldering_iron.jpg) | Necessary |
+| Solder Wire | Lead free soldering iron | ![Soldering_wire](/images/solder_wire.jpg) | Necessary |
+| Knife | Upholstery knife or any other for stripping wires. You can also use wire stripper but due to small diameters and small amount of stripped wire it's easier to use knife | ![Knife](/images/knife.jpg) | Necessary |
+| Generic 3D printer | Used for printing weatherproof case | ![3D printer](/images/3D_printer.jpg) | Optional |
 
 ### 2.4 Connection schematics
 
@@ -99,19 +99,19 @@ Device can be connected in 3 possible ways, that depends on possible power sourc
 
 In this case, no solar panels or batteries are needed.
 
-![Schematics](/Augumented_Reality/images/ps_schematics.png)
+![Schematics](/images/ps_schematics.png)
 
 #### 2.4.2 Batteries
 
 To maintain 3 days operation it is recomended to attach at least 4 batteries.
 
-![Schematics](/Augumented_Reality/images/battery_schematics.png)
+![Schematics](/images/battery_schematics.png)
 
 #### 2.4.3 Solar panel
 
 For constant solar panel power supply it is recomended to attach at least 2 baterries - this allows to last at least one day of bad weather.
 
-![Schematics](/Augumented_Reality/images/solar_schematics.png)
+![Schematics](/images/solar_schematics.png)
 
 ## 3. Software
 
@@ -420,11 +420,11 @@ Base ideas:
 
 | Part name | Description | Photo | Print Qty |
 | --- | --- | --- | --- |
-| 2_batteries_lower_case | Bottom compartment part for 2 batteries setup | ![lower_case](/Augumented_Reality/images/2b_lc.jpg) | 1 |
-| 2_batteries_upper_case | Top compartment part for 2 batteries setup | ![upper_case](/Augumented_Reality/images/2b_uc.jpg) | 1 |
-| 4_batteries_lower_case | Bottom compartment part for 4 batteries setup | ![lower_case](/Augumented_Reality/images/4b_lc.jpg) | 1 |
-| 4_batteries_upper_case | Top compartment part for 4 batteries setup | ![upper_case](/Augumented_Reality/images/4b_uc.jpg) | 1 |
-| stopper | Blocking part fitted in lower part to block and tighten USB cable passthrough | ![stopper](/Augumented_Reality/images/stopper.jpg) | 2 |
+| 2_batteries_lower_case | Bottom compartment part for 2 batteries setup | ![lower_case](/images/2b_lc.jpg) | 1 |
+| 2_batteries_upper_case | Top compartment part for 2 batteries setup | ![upper_case](/images/2b_uc.jpg) | 1 |
+| 4_batteries_lower_case | Bottom compartment part for 4 batteries setup | ![lower_case](/images/4b_lc.jpg) | 1 |
+| 4_batteries_upper_case | Top compartment part for 4 batteries setup | ![upper_case](/images/4b_uc.jpg) | 1 |
+| stopper | Blocking part fitted in lower part to block and tighten USB cable passthrough | ![stopper](/images/stopper.jpg) | 2 |
 
 ### 5.2 Printer setup
 
@@ -447,41 +447,41 @@ These instructions show step by step connection when using 3D printed case. You 
 
 1. Cut 6 pieces of wires each 10 cm. Strip about 2mm from both ends.
 
-![Connections](/Augumented_Reality/images/connections_1.jpg)
+![Connections](/images/connections_1.jpg)
 
 2. Solder wires to lolin32 from the bottom side of the board. Solder them to pins GND, 3.3V, 19, 20 23, 18, 5.
 
-![Connections](/Augumented_Reality/images/connections_2.jpg)
+![Connections](/images/connections_2.jpg)
 
 3. Solder other end of the wires to microSD card module, according to schematics.
 
-![Connections](/Augumented_Reality/images/connections_3.jpg)
+![Connections](/images/connections_3.jpg)
 
 4. Guide battery holder wires from bottom to right corner of batteries holder and then to the top. Guide top wires through middle of bateries pack and cut them just at edge of batteries cases. Strip about 5mm from end. If you are having problems with keeping cases togheter you can place batteries in and squeeze them with zip ties. Be extra carefull for black and red wires not to touch each other.
 
-![Connections](/Augumented_Reality/images/connections_4.jpg)
+![Connections](/images/connections_4.jpg)
 
-![Connections](/Augumented_Reality/images/connections_5.jpg)
+![Connections](/images/connections_5.jpg)
 
 5. Cut about 3 cm from JST connectors, strip them for about 5mm. Solder all battery and JST wires together. Do not forget to put on heat shrinking tubes and shrink them on soldered connections to insulate them. Check wires polarity with microcontroller board - if red wires are not connecting to **+** on lolin board, then switch wires in connectors.
 
-![Connections](/Augumented_Reality/images/connections_6.jpg)
+![Connections](/images/connections_6.jpg)
 
 6. Cut USB connector from USB cable. Strip about 3 cm of main insulation, then cut out all extra wires exept black and red. Stip end of these wires for about 3mm.
 
-![Connections](/Augumented_Reality/images/connections_7.jpg)
+![Connections](/images/connections_7.jpg)
 
 7. Solder USB cable to the back of solar panel. Red cable gos to **+**, black to **-**.
 
-![Connections](/Augumented_Reality/images/connections_8.jpg)
+![Connections](/images/connections_8.jpg)
 
 8. Secure wires with power tape.
 
-![Connections](/Augumented_Reality/images/connections_9.jpg)
+![Connections](/images/connections_9.jpg)
 
 9. Connect batteries to batteries JST socket, and plug USB connector to USB socket on lolin board.
 
-![Connections](/Augumented_Reality/images/connections_10.jpg)
+![Connections](/images/connections_10.jpg)
 
 ### 6.2 Arduino IDE, ESP and libraries
 
@@ -670,31 +670,31 @@ If there are some problems with webpage, you are using any collecting scenarios 
 
 1. Guide USB wire through opening in bottom case.
 
-![Case assembly](/Augumented_Reality/images/case_assembly_1.jpg)
+![Case assembly](/images/case_assembly_1.jpg)
 
 2. Put two pieces of 3d printed stoppers around cable. You can do it from inside (more secure, but a bit tricky) or from the bottom.
 
-![Case assembly](/Augumented_Reality/images/case_assembly_2.jpg)
+![Case assembly](/images/case_assembly_2.jpg)
 
 3. Place lolin board in it slot, connectors upward, with electronics facing batteries compartment. Next put microSD card module in its slot, again with electronics facing batteries compartment. After this, connect microUSB to lolin board, and pull it down so there are no loose cable in compartment.
 
-![Case assembly](/Augumented_Reality/images/case_assembly_3.jpg)
+![Case assembly](/images/case_assembly_3.jpg)
 
 4. Put batteries in battery compartment, and connect wires to battery socket on lolin board.
 
-![Case assembly](/Augumented_Reality/images/case_assembly_4.jpg)
+![Case assembly](/images/case_assembly_4.jpg)
 
 5. Insert microSD card in microSD card module. You can store extra microSD cards in side compartments.
 
-![Case assembly](/Augumented_Reality/images/case_assembly_5.jpg)
+![Case assembly](/images/case_assembly_5.jpg)
 
 6. Cover all with top piece of 3D printed case. Correct wires guiding if case can't close completly.
 
-![Case assembly](/Augumented_Reality/images/case_assembly_6.jpg)
+![Case assembly](/images/case_assembly_6.jpg)
 
 7. Use zip tie to secure both parts of case. You can use side handles to zip tie case to enviroment elements like tree branches or poles.
 
-![Case assembly](/Augumented_Reality/images/case_assembly_7.jpg)
+![Case assembly](/images/case_assembly_7.jpg)
 
 
 ## 7. Comments
