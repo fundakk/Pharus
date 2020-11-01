@@ -27,7 +27,35 @@
   - [6.5 Testing](#65-testing)
   - [6.6 Assembling case](#66-assembling-case)
 - [7. Comments](#7-comments)
+
 ## 1. Idea
+
+Project was implemented under the "Augmented Reality" program created by the Pilecki Institute. The basic idea of the project was to elevate of perceiving art beyond the existing techniques - local exhibitions, talks or lectures, where in times of social distancing, their organization was difficult and in some cases impossible.
+
+The idea behind the project is the original description of Open Call:
+
+“The sudden closure of museums, theaters, cinemas, the cancellation of concerts and meetings with authors posed many questions to the audience - participants and creators, managers, animators, researchers and educators about how to operate despite the imposed restrictions and forced them to seek new solutions. Restrictions affect not only the reception, but also force the reorganization of the existing forms of activity. Ideas for a digital leap into the future are multiplying, lazily postponed for years. "
+
+As part of this idea, the Pharus project was created. From Latin it means "lantern" which directly refers to its function. Its aim was to create a tool that would allow the transfer of information beyond the classic forms of communication, centralized around one space, but not directly using modern media such as the Internet / Facebook / Instagram, but using the technological achievements of modern times to the maximum.
+
+Designed device, based on the ESP32 microcontroller, allows to create a local "beacon" that gives its own WiFi access point. Logging in from your phone to this network automatically (using the captive portal functionality) redirects the user to a website that contains content and functionalities stored only on the SD card connected to the device.
+
+This solution is based on existing technologies, however, it stands out with a few details. The first thought is QR code that redirect to specific websites. Unlike this technology, the project does not require any additional applications to read the code, redirects are automatic, without need for additional link clicks, and independent of Internet access. The second thought is commercial beacon system, used, for example, in museums. The thing that distinguishes the project from such ready-made applications is that you can achieve goals without the use of external applications or expensive devices, significantly extending the range of usage for less commercial installations.
+
+In terms of technology, the project is based on current IoT solutions. The project uses the Lolin32 lite prototype board, together with an external microSD card reader, to create a hotspot after connecting to which, user is redirected to a website located on the card connected to the device. In addition, the project provides for 3 types of power supply - mains power (via 5V charger), battery power (using 18650 batteries, using a built-in battery charging system), and solar power (in the case of long-term use in spaces that do not have access to mains power ).
+
+The project is aimed at a very wide group of artists or organizations. It can be used by individual creators as well as smaller or larger festivals. The project can be implemented once (for a limited time) or it can be implemented as a permanent installation.
+
+The project includes a couple of scenarios that have been divided into 3 layers - base scenarios, gamification scenarios, and event scenarios.
+
+The first level represents the simplest way to use the device. It allows you to add substantive comment in normally inaccessible places, to disperse the visiting by taking the content outside one space, or to divide the content and spread it over a specific expanse.
+
+The second level introduces gamification scenarios. Based on the functionality of the base scenarios, it adds collecting, leveling or city game elements to increase the attractiveness of the event.
+
+The third level, based on gamification solutions, aimed mainly at festivals or organizations, is based on adding physical and digital rewards after achieving specific goals.
+
+Of course, the listed scenarios are not final, the possibilities of use are unlimited and the listed scenarios are only examples of use.
+
 
 ## 2. Hardware
 
