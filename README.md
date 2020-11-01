@@ -731,6 +731,5 @@ If there are some problems with webpage, you are using any collecting scenarios 
 
 - create HTML file for events scenario
 - describe HTML files for event scenario
-- write about project idea
 - add ilustrations for scenarios
 - grammar check
