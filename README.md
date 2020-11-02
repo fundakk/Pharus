@@ -12,21 +12,22 @@
   - [3.1 Principle](#31-principle)
   - [3.2 Code](#32-code)
   - [3.3 SD card files structure](#33-sd-card-files-structure)
-- [4. Scenarios](#4-scenarios)
-  - [4.1 Basic Scenarios](#41-basic-scenarios)
-  - [4.2 Gamification](#42-gamification)
-  - [4.3 Event scenarios](#43-event-scenarios)
-- [5. Weatherproof Case](#5-weatherproof-case)
-  - [5.1 Parts](#51-parts)
-  - [5.2 Printer setup](#52-printer-setup)
-- [6. Step by step setup example](#6-step-by-step-setup-example)
-  - [6.1 Connections](#61-connections)
-  - [6.2 Arduino IDE, ESP and libraries](#62-arduino-ide-esp-and-libraries)
-  - [6.3 Configuring Arduino IDE, compiling and uploading sketch](#63-configuring-arduino-ide-compiling-and-uploading-sketch)
-  - [6.4 Using example files](#64-using-example-files)
-  - [6.5 Testing](#65-testing)
-  - [6.6 Assembling case](#66-assembling-case)
-- [7. Comments](#7-comments)
+- [4. How to use](#4-how-to-use)
+- [5. Scenarios](#5-scenarios)
+  - [5.1 Basic Scenarios](#51-basic-scenarios)
+  - [5.2 Gamification](#52-gamification)
+  - [5.3 Event scenarios](#53-event-scenarios)
+- [6. Weatherproof Case](#5-weatherproof-case)
+  - [6.1 Parts](#61-parts)
+  - [6.2 Printer setup](#62-printer-setup)
+- [7. Step by step setup example](#7-step-by-step-setup-example)
+  - [7.1 Connections](#71-connections)
+  - [7.2 Arduino IDE, ESP and libraries](#72-arduino-ide-esp-and-libraries)
+  - [7.3 Configuring Arduino IDE, compiling and uploading sketch](#73-configuring-arduino-ide-compiling-and-uploading-sketch)
+  - [7.4 Using example files](#74-using-example-files)
+  - [7.5 Testing](#75-testing)
+  - [7.6 Assembling case](#76-assembling-case)
+- [8. Comments](#8-comments)
 
 ## 1. Idea
 
@@ -316,7 +317,13 @@ Be aware, that image files must be saved as jpg, not jpeg.
 
 There is no limit on size of files, but be aware that this is not a high speed connection. 100 mb video file will load in very long time, but will not play continuously, since transfer speed is to low. Stick with small files. After uploading files test with your phone if it works smoothly. If not, compress files.
 
-## 4. Scenarios
+## 4. How to use
+
+### 4.1 Creator
+
+### 4.2 Visitor
+
+## 5. Scenarios
 
 This project involves three level of usage scenarios. Each level is more complex, and have it's designated use.
 
@@ -324,13 +331,13 @@ This project involves three level of usage scenarios. Each level is more complex
 2. Second level are gamification scenarios - their purpose is to increase engagement of users. They require more advanced technical solutions, but with right scenarios and ideas can greatly increase involvement of visitors, leave them with better experience and supply organizers with extra tools.
 3. Third level are event solutions - these are mostly festival/organisation scenarios that are based around increasing involvement using gamification and external motivation with real world awards.
 
-### 4.1 Basic Scenarios
+### 5.1 Basic Scenarios
 
 Basic scenarios are first step of delivering content to recipient. They represent the simplest and most standard applications of device.
 
 Three sub scenarios can be included in its usage:
 
-#### 4.1.1 Substantive comment
+#### 5.1.1 Substantive comment
 
 This scenario allows to add extended explanation, comment, history fact, author biography to presented art piece, when no other forms are available. It would apply mostly to historical points, big scale installations, urban art, murals, or mappings, where scale or location do not allow to add printed description, or it would be easily missed.
 
@@ -340,7 +347,7 @@ Examples of use:
 - placing informational boards on historical building or monuments might not be possible. Device placed in its close perimeter will allow to share facts, photos or other extra information about its origin, or important people who lived there.
 - large scale installation or video mapping during festival will be hard to comment, or at least present the author, because any informational slate will be lost in its scale. Using device will allow to deliver all information that could be shared, like artist bio, commentary, photos or movies of construction etc.
 
-#### 4.1.2 Scattered content
+#### 5.1.2 Scattered content
 
 Scattering content allows to take art outside of exhibitions area. Multiple devices located in different places (within city, country or even globally), allows to scatter visitors and apply more social distancing in terms of art delivery. Each device will deliver single artwork in digital form. Scattering also allows to move some forms art to places with more ambience.
 
@@ -350,7 +357,7 @@ Example of use:
 - sound artist or musician can move his creations to places with better atmosphere or vibe, that can improve reception.
 - any artist can place devices in public spaces or bars, as form of expression or self-promotion.
 
-#### 4.1.3 Extended content
+#### 5.1.3 Extended content
 
 Extended content is similar to substantive comment, but instead of delivering comment or other text it will deliver other art in digital form. It would fit in galleries, or at art exhibitions, where limited space (or budget) do not allows to put extra artworks.
 
@@ -360,7 +367,7 @@ Example of use:
 - emerging artist, instead of only his illustrations would like to show also his digital movies. Setting up for example 4 TV or projectors require equipment that he has no access to, and is above his budget in case of renting or buying. Setting up devices allows him to present his other work budget-wise way.
 - musician or artist can set device in local restaurant/bar/pub where he hanged poster about his event and add extra involvement and deliver more information.
 
-### 4.2 Gamification
+### 5.2 Gamification
 
 Gamification scenarios are next level of device use. Based on basic scenarios they are used to liven up experience of visiting galleries/festivals. They are intermediate element between classical marketing and non-commercial promotion. They allow to extend events in time and increase visitor engagement, which have use both to individual artist planning to set up bigger exhibitions, and festivals trying to increase their guests activity.
 
@@ -385,7 +392,7 @@ Possible scenarios are unlimited and many of games mechanics can be transferred,
 
 Since there is a lot of possible applications, only few will be shown with example.
 
-#### 4.2.1 Collecting
+#### 5.2.1 Collecting
 
 Collecting elements increase users activity, because each element of collection have bigger value then single one. People are naturally conditioned to fill holes and complete patterns, so that’s why person that has not visited all sites on festival, will go to last one, just to complete collection.
 
@@ -404,7 +411,7 @@ Example of use:
 - individual artist can setup device in multiple places, and by posting information about their locations on social media (for example one every 3 days), increase visitors activity, keep event alive for longer time and finally reward active visitor with digital piece of art.
 - organisation or artist could spread devices around the city, and by implementing geocaching mechanism (by posting geographical coordinates or even photos of these places) could activate visitors to participate more intensely in event.
 
-#### 4.2.2 Levelling
+#### 5.2.2 Levelling
 
 Designed to rather lightweight events, this scenario is based on collecting experience points instead of parts of collection. It can provide deeper involvement - except of collecting elements, it includes psychological element of progress and achievements. But due to the fact that it is clearly gaming solution, it might not be interesting to some groups of visitors and even lower the rank of event, so it should be used carefully, and it fits more into "fun" festival or activates designed to younger audience.
 
@@ -413,7 +420,7 @@ Example of use:
 - summer festival could set device at each music stage, and change it every artist allowing to collect as much event from festival as possible, and award points (which will fill progress bar to next level). It would allow user to brag around social media and increase number of tagged posts.
 - medieval festival could use multiple devices and by letting kids connect and gather experience points, will award them with more powerful avatar, from example starting with standard infantry to knight in shining armour. Each level would consist of new illustration and historical information.
 
-#### 4.2.3 Riddles solving
+#### 5.2.3 Riddles solving
 
 It can improve both levelling and collecting by adding more advanced element of solving any kind of riddles. This could greatly benefit in storytelling scenarios.
 
@@ -421,7 +428,7 @@ Examples of use:
 - after logging in, user is given part of the story. He has also a window to enter reply for a question, concerning surrounding location. After proper answer, he will be revealed with another part. All devices around city are part of one story.
 - kids at museum, after logging to network, and before being able to level up, are required to answer a question with piece of knowledge that can be found around perimeter, which will stimulate learning.
 
-### 4.3 Event scenarios
+### 5.3 Event scenarios
 
 Event scenarios are last level of engagement for visitors and are plainly commercial form of rewarding activity. They purly based of gamification scenarios that adds extra, real world prizes. They should be thoroughly considered, since making them to easy (or easy to cheat) with too big reward could have disastrous impact on event budget or at least public relations.
 
@@ -432,7 +439,7 @@ Some examples how to include real world prizes include:
 - festival last for a week. During that week there are several events, that guest can participate in. Going to every event and logging in, will generate discount code for last main event. Or allow for one free drink.
 - just arriving at music festival and logging in will result in participating in draw for some merch.
 
-## 5. Weatherproof Case
+## 6. Weatherproof Case
 
 This project also includes 3D printable case for components and batteries. Two version are available - housing 2 and 4 batteries. Up arrow on upper part shows direction in which case should be mounted to maintain assumed IP33 weather resistance. Case also have compartments for holding spare SD cards - depending on version from one to three extra cards.
 
@@ -444,7 +451,7 @@ Base ideas:
 - low aesthetics - case is not supposed to be pretty - it's always hidden and do not require to look good. It should be functional.
 - 3D printable - can be printed without advanced slicing - no supports, overhangs and so.
 
-### 5.1 Parts
+### 6.1 Parts
 
 | Part name | Description | Photo | Print Qty |
 | --- | --- | --- | --- |
@@ -454,7 +461,7 @@ Base ideas:
 | 4_batteries_upper_case | Top compartment part for 4 batteries setup | ![upper_case](/images/4b_uc.jpg) | 1 |
 | stopper | Blocking part fitted in lower part to block and tighten USB cable passthrough | ![stopper](/images/stopper.jpg) | 2 |
 
-### 5.2 Printer setup
+### 6.2 Printer setup
 
 Basically, any settings and materials will be good for printing, so choose one best fitting your printer. Some suggested setting:
 - 0.4mm nozzle
@@ -467,9 +474,9 @@ Basically, any settings and materials will be good for printing, so choose one b
 - concentric top/bottom pattern
 - any material, suggested PLA or ABS
 
-## 6. Step by step setup example
+## 7. Step by step setup example
 
-### 6.1 Connections
+### 7.1 Connections
 
 These instructions show step by step connection when using 3D printed case. You you are not planning to use 3d printed case, you can connect device with otheer lenght of cables, or even using headers and jumper cables.
 
@@ -511,17 +518,17 @@ These instructions show step by step connection when using 3D printed case. You 
 
 ![Connections](/images/connections_10.jpg)
 
-### 6.2 Arduino IDE, ESP and libraries
+### 7.2 Arduino IDE, ESP and libraries
 
 This project will require to use Arduino IDE to compile and upload code, with ESP32 boards and external libraries
 
-#### 6.2.1 Installing Arduino IDE
+#### 7.2.1 Installing Arduino IDE
 
 Follow instructions on official Arduino guide:
 
 https://www.arduino.cc/en/guide/windows
 
-#### 6.2.2 Installing ESP32 boards
+#### 7.2.2 Installing ESP32 boards
 
 This is easy step by step solution how to install ESP32 boards in Arduino IDE.
 
@@ -534,7 +541,7 @@ This is easy step by step solution how to install ESP32 boards in Arduino IDE.
 7) Press install button for the *ESP32 by Espressif Systems*
 8) After few seconds it should be installed, after this click **Close**
 
-#### 6.2.3 Installing required libraries
+#### 7.2.3 Installing required libraries
 
 This project requires Asynchronous Web Server libraries. It consist of two packages:
 
@@ -549,7 +556,7 @@ Next:
 3. Choose one of downloaded libraries and click open
 4. Repeat for second library
 
-### 6.3 Configuring Arduino IDE, compiling and uploading sketch
+### 7.3 Configuring Arduino IDE, compiling and uploading sketch
 
 After this you are ready to upload software to microcontroller. First you need to setup Arduino IDE for proper settings.
 1. Connect you Lolin32 board to computer using USB cable.
@@ -569,11 +576,11 @@ Now there is only one thing that you can or should do. On line 34 there is code 
 
 After that click round button with right facing arrow **Upload**. This will compile and upload code to microcontroller.
 
-### 6.4 Using example files
+### 7.4 Using example files
 
 After setting up ESP32, you need to prepare SD card and project files. These instructions presents way of editing or creating HTML files that will work directly with device, without a need to change C++ code on ESP, and are based on examples provided.
 
-#### 6.4.1 Basic scenarios
+#### 7.4.1 Basic scenarios
 
 ##### Text
 
@@ -626,7 +633,7 @@ Prepare all other media files as described in previous examples.
 
 In html file change all Lorem Ipsum fragments and section titles to your desired descriptions.
 
-#### 6.4.2 Gamification
+#### 7.4.2 Gamification
 
 ##### Image collecting
 
@@ -668,11 +675,11 @@ Get next SD card, make previous changes on lines 54 and line 11 and also on line
 
 Do the same for next SD cards, increasing part number on each one until you reach six. Put each SD card in each device and place them in selected locations.
 
-#### 6.4.3 Event scenarios
+#### 7.4.3 Event scenarios
 
 TBA
 
-### 6.5 Testing
+### 7.5 Testing
 
 After modifying and preparing example files put your SD card in SD card module. Open Arduino IDE (no need to open any file - just start Arduino IDE). Connect microcontroller to your computer and set proper COM port (just like during uploading). Go to **Tools** and choose **Serial Monitor**. In lower right corner change baud to 115200. Click reset button on microcontroller (right between battery and USB connectors). Board should restart and should report it's start up on Serial Monitor.
 
@@ -684,7 +691,7 @@ Get your phone and connect to WiFi network created by microcontroller. In your b
 
 If there are some problems with webpage, you are using any collecting scenarios and you want to go back to primordial state (just like freshly connecting new phone) clean cookies and web stored pages in your smartphone.
 
-### 6.6 Assembling case
+### 7.6 Assembling case
 
 1. Guide USB wire through opening in bottom case.
 
@@ -715,7 +722,7 @@ If there are some problems with webpage, you are using any collecting scenarios 
 ![Case assembly](/images/case_assembly_7.jpg)
 
 
-## 7. Notes
+## 8. Notes
 
 - all files used in HTML examples are licensed under CC-0 licenses.
 - while creating html pages, you cannot use more then 5 files that are loaded at the same time. If you need to load more files you can:
@@ -723,7 +730,7 @@ If there are some problems with webpage, you are using any collecting scenarios 
     - include styles inside index.html
     - pack scripts into single gz files or include them in index.html file.
 
-### 7.1 TODO
+### 8.1 TODO
 
 - create HTML file for events scenario
 - describe HTML files for event scenario
