@@ -555,7 +555,7 @@ After this you are ready to upload software to microcontroller. First you need t
 1. Connect you Lolin32 board to computer using USB cable.
 2. Open Arduino IDE
 3. Go to **Tools** > **Boards:"XXXXXX"** > **ESP32 Arduino**  and choose *WEMOS LOLIN32*
-4. Go to **Tools** > **Upload speed: "XXXXXX"** and choose *92160*
+4. Go to **Tools** > **Upload speed: "XXXXXX"** and choose *921600* or if it's not working try *115200*
 5. Go to **Tools** > **CPU Frequency: "XXXXXX"** and choose *240 Mhz (WiFi/BT)*
 6. Go to **Tools** > **Flash Frequency: "XXXXXX"** and choose *80 Mhz*
 7. Go to **Tools** > **Partition Scheme: "XXXXXX"** and choose *No OTA (Large APP)*
@@ -620,10 +620,11 @@ This example mixes different media types in single webpage. It includes:
 - 1 section with sound,
 - background image.
 
-First you need to prepare image sprite files. This will include all 4 images for each section within single file.
+First you need to prepare image sprite files. This will include all 4 images for each section within single file. For this, using any image editor create single file that is 1000x4000 pixels. Save it as image1.jpg. Next prepare four files that you want to use - they need to be square - scale and crop them to 1000x1000 pixels each. Copy and paste each image to previously created image1.jpg - and pase them from top to bottom, each one under previous. Top image will be displayed under section 1, second under section 2 etc.
 
-For this example you need to prepare all media files as described in previous examples.
+Prepare all other media files as described in previous examples.
 
+In html file change all Lorem Ipsum fragments and section titles to your desired descriptions.
 
 #### 6.4.2 Gamification
 
@@ -641,7 +642,7 @@ Do the same for next SD cards, increasing part number on each one until you reac
 
 This is basic example for collecting experience from six different devices. Logging to first one will award 100 XP points. On 300 points user will reach next level and be awarded new avatar with new description. Reaching 600 points will reach maximum level with last avatar.
 
-To use this example first you need to prepare your images. All must be square (1:1 Aspect ratio) with the same resolution. Next prepare sprite file, by changing first image vertical resolution to three times its height and then copy each next down under. In other words, prepare single file out of 3 files by putting them on grid. For example, if your files are 500x500 pixels, then prepare file that is 500x1500 pixels, and put first image so it's left upper corner coordinates would be 0,0, second 0,500 and third 0,1000. Save image as image1.jpg
+To use this example first you need to prepare your images. All must be square (1:1 Aspect ratio) with the same resolution. Next prepare sprite file, by changing first image vertical resolution to three times its height and then copy each next down under. In other words, prepare single file out of 3 files by putting them on grid. For example, if your files are 700x700 pixels, then prepare file that is 700x2100 pixels, and put first image so it's left upper corner coordinates would be 0,0, second 0,700 and third 0,1400. Save image as image1.jpg
 
 Now edit index.html file located in HTML_examples/Gamification/XP_collecting. There are few lines to edit.
 
