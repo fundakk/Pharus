@@ -718,7 +718,15 @@ Do the same for next SD cards, increasing part number on each one until you reac
 
 #### 7.4.3 Event scenarios
 
-TBA
+This example consists of two files types - one index.html is copied on SD card, second verification.html is used to check if generated code is correct.
+
+In each folder (named device_1 to device_4) there is single index.html. Each file should be copied to differrent SD card and placed in different set.
+
+User after logging to each device will get one portion of two digit numeral code. It means logging to all 4 devices will generate random 8 digit code. After getting all 4 devices script will generate 4 more numbers - these are simple checksum or verification numbers. These last 4 digits are generated based on previous randomly generated digits.
+
+Whole, 12 digit code can be manualy transfered to verification.html to check whether code is correct or not.
+
+Warning - whis example is not extremaly easy to hack, but it's not encrypted in any way and can be cheated on. It is recomended not to use this example in money sensitive cases (like merch givaway, free entries or discounts). Use it as scenario example or for digital rewards.
 
 ### 7.5 Testing
 
@@ -771,11 +779,10 @@ If there are some problems with webpage, you are using any collecting scenarios 
     - include styles inside index.html
     - pack scripts into single gz files or include them in index.html file.
 - keep all media as lightweight as possible - transfer rates are not great and sometimes even image sprites are not enough to prevent device restart during download.
-
+- event example is not extremaly easy to hack, but it's not encrypted in any way and can be cheated on. It is recomended not to use this example in money sensitive cases (like merch givaway, free entries or discounts). Use it as scenario example or for digital rewards.
 
 ### 8.1 TODO
 
 - create HTML file for events scenario
-- describe HTML files for event scenario
 - add ilustrations for scenarios
 - grammar check
