@@ -331,13 +331,23 @@ This section will explain to actualy use this device - both from creator (organi
 
 1. After arriving in location indicatet by organizer, bring up available WiFi networks.
 
+![How_to](/images/how_to_user_1.jpg)
+
 2. Connect to WiFi with name described in event
+
+![How_to](/images/how_to_user_2.jpg)
 
 3. You should see a popup that will say "Sign in to a WiFi network" or simmilar, based on your smartphone
 
+![How_to](/images/how_to_user_3.jpg)
+
 4. Click on popup or network name again to be redirected to local website with desired content.
 
+![How_to](/images/how_to_user_4.jpg)
+
 5. In rare cases that captive portal is not compatible with your smartphone, bring up web browser and enter 192.168.4.1
+
+![How_to](/images/how_to_user_5.jpg)
 
 ## 5. Scenarios
 
