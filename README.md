@@ -325,9 +325,24 @@ This section will explain to actualy use this device - both from creator (organi
 
 ### 4.1 Creator
 
+1. Choose your scenario. Think how you want to use, where, what content you want do deliver. You can use example scenarios or think of something new. Some ideas can be found in section 5. Scenarios.
 
+2. After creating scenario, choose right hardware solution. Use following diagram to determin what hardware to use in each location:
 
-### 4.2 Visitor perspective
+![How_to](/images/Hardware_diagram.png)
+
+3. Gather all required media - images, movies, sounds and texts. Prepare HTML files and media files according to examples, required formats and data structure. Detialed informations are in sections 3.3 SD card files structure and 7.4 Using example files
+
+4. Assemble hardware (section 7.1 Connections), upload software (section 7.3 Configuring Arduino IDE, compiling and uploading sketch) and eventualy print and assemble case (7.6 Assembling case).
+
+5. When all devices are ready, place them at chosen locations.
+
+6. Now you need to let your visitors know about it. It can be done in different ways, but the simplest way would be use social media post. You need to inform your gests about few things:
+  - that this solution is available and they can get extra content by using thier phones
+  - step by step solution (like the one below) how to exactly connect
+  - locations of devices - you can just post addres, pin on online maps, or you can add geocaching solution by posting geographical coordinates, or even a picture of certain place in city. You can also start a city game scenario by showing location of first device and putting rest of locations on subsequent devices.
+
+### 4.2 Visitor
 
 1. After arriving in location indicatet by organizer, bring up available WiFi networks.
 
