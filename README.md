@@ -27,7 +27,7 @@
   - [7.4 Using example files](#74-using-example-files)
   - [7.5 Testing](#75-testing)
   - [7.6 Assembling case](#76-assembling-case)
-- [8. Comments](#8-comments)
+- [8. Notes](#8-Notes)
 
 ## 1. Idea
 
