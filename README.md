@@ -13,6 +13,8 @@
   - [3.2 Code](#32-code)
   - [3.3 SD card files structure](#33-sd-card-files-structure)
 - [4. How to use](#4-how-to-use)
+  - [4.1 Creator](#41-creator)
+  - [4.2 Visitor](#42-visitor)
 - [5. Scenarios](#5-scenarios)
   - [5.1 Basic Scenarios](#51-basic-scenarios)
   - [5.2 Gamification](#52-gamification)
@@ -189,7 +191,7 @@ Declare new handler class
 	};
 
 
-This part is self-explanatory. It's starting serial communication, initializing SD card (with printing of what is on that card) and starting Wi-Fi Access Point and DNS server. You can change `WiFi.softAP("esp-captive");` to your desired hotspot name.
+This part is self-explanatory. It's starting serial communication, initializing SD card (with printing of what is on that card) and starting Wi-Fi Access Point and DNS server. You can change `WiFi.softAP("Pharus");` to your desired hotspot name.
 
 	void setup() {
 	  Serial.begin(115200);
@@ -212,7 +214,7 @@ This part is self-explanatory. It's starting serial communication, initializing 
 	  Serial.println("::::/SD::::");
 	  Serial.println("");
 
-	  WiFi.softAP("esp-captive");
+	  WiFi.softAP("Pharus");
 	  dnsServer.start(53, "*", WiFi.softAPIP());
 	  Serial.println(WiFi.softAPIP());
 
@@ -319,9 +321,23 @@ There is no limit on size of files, but be aware that this is not a high speed c
 
 ## 4. How to use
 
+This section will explain to actualy use this device - both from creator (organizer) and visitor perspective.
+
 ### 4.1 Creator
 
-### 4.2 Visitor
+
+
+### 4.2 Visitor perspective
+
+1. After arriving in location indicatet by organizer, bring up available WiFi networks.
+
+2. Connect to WiFi with name described in event
+
+3. You should see a popup that will say "Sign in to a WiFi network" or simmilar, based on your smartphone
+
+4. Click on popup or network name again to be redirected to local website with desired content.
+
+5. In rare cases that captive portal is not compatible with your smartphone, bring up web browser and enter 192.168.4.1
 
 ## 5. Scenarios
 
@@ -621,17 +637,17 @@ If your sound is not in mp3 format, you need to convert it. Again you can use ht
 ##### Advanced
 
 This example mixes different media types in single webpage. It includes:
-- 6 sections, each with text and header,
+- 5 sections, each with text and header,
 - 4 of these sections contain different image (packed as single sprite file),
-- 1 section with video,
 - 1 section with sound,
-- background image.
 
-First you need to prepare image sprite files. This will include all 4 images for each section within single file. For this, using any image editor create single file that is 1000x4000 pixels. Save it as image1.jpg. Next prepare four files that you want to use - they need to be square - scale and crop them to 1000x1000 pixels each. Copy and paste each image to previously created image1.jpg - and pase them from top to bottom, each one under previous. Top image will be displayed under section 1, second under section 2 etc.
+First you need to prepare image sprite files. This will include all 4 images for each section within single file. For this, using any image editor create single file that is 500x2000 pixels. Save it as image1.jpg. Next prepare four files that you want to use - they need to be square - scale and crop them to 500x500 pixels each. Copy and paste each image to previously created image1.jpg - and pase them from top to bottom, each one under previous. Top image will be displayed under section 1, second under section 2 etc.
 
 Prepare all other media files as described in previous examples.
 
-In html file change all Lorem Ipsum fragments and section titles to your desired descriptions.
+In HTML file change all Lorem Ipsum fragments and section titles to your desired descriptions.
+
+Be aware that you are limited to maximum of 5 files loaded simultaneously. Sometimes event this is not enough to prevent device restarting. When using multiple files test device and keep all files as lightweight as possible.
 
 #### 7.4.2 Gamification
 
@@ -729,6 +745,8 @@ If there are some problems with webpage, you are using any collecting scenarios 
     - use css image sprites,
     - include styles inside index.html
     - pack scripts into single gz files or include them in index.html file.
+- keep all media as lightweight as possible - transfer rates are not great and sometimes even image sprites are not enough to prevent device restart during download.
+
 
 ### 8.1 TODO
 
