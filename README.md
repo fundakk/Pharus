@@ -613,28 +613,17 @@ If your sound is not in mp3 format, you need to convert it. Again you can use ht
 
 ##### Advanced
 
-This example breaks hardware.
+This example mixes different media types in single webpage. It includes:
+- 6 sections, each with text and header,
+- 4 of these sections contain different image (packed as single sprite file),
+- 1 section with video,
+- 1 section with sound,
+- background image.
 
-~~You can create any html webpage to archive desired look.~~
+First you need to prepare image sprite files. This will include all 4 images for each section within single file.
 
-~~But there are some limitation. Each webpage must be:~~
-~~- single levelled (no hyperlinks to other pages)~~
-~~- maximum of 5 images can be used (one of them is background image)~~
-~~- one CSS file can be used~~
-~~- one video can be embedded~~
-~~- one sound file can be embedded~~
-~~- single page cannot have more external files than 4 (total of 5 files). No matter size.~~
+For this example you need to prepare all media files as described in previous examples.
 
-Will change:
-
-~~Example of advanced usage includes webpage with:~~
-~~- 6 sections, each with header~~
-~~- background image~~
-~~- 4 of these sections contain text and one photo~~
-~~- each photo can be clicked and enlarged~~
-~~- one section contains video file~~
-~~- one section contains sound file~~
-~~- CSS file with styles for header and text~~
 
 #### 6.4.2 Gamification
 
@@ -725,7 +714,13 @@ If there are some problems with webpage, you are using any collecting scenarios 
 ![Case assembly](/images/case_assembly_7.jpg)
 
 
-## 7. Comments
+## 7. Notes
+
+- all files used in HTML examples are licensed under CC-0 licenses.
+- while creating html pages, you cannot use more then 5 files that are loaded at the same time. If you need to load more files you can:
+    - use css image sprites,
+    - include styles inside index.html
+    - pack scripts into single gz files or include them in index.html file.
 
 ### 7.1 TODO
 
