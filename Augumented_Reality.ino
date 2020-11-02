@@ -46,7 +46,7 @@ void setup() {
   Serial.println("::::/SD::::");
   Serial.println("");
 
-  WiFi.softAP("esp-captive");
+  WiFi.softAP("Strajk_Kobiet_Zaloguj_sie");
   dnsServer.start(53, "*", WiFi.softAPIP());
   Serial.println(WiFi.softAPIP());
 
