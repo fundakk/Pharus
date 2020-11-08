@@ -719,11 +719,13 @@ This example consists of two file types - one index.html is copied on an SD card
 
 In each folder (named device_1 to device_4) there is a single index.html. Each file should be copied to a different SD card and placed in a different set.
 
-The user after logging into each device will get one portion of a two-digit numeral code. It means logging to all 4 devices will generate a random 8 digit code. After getting all 4 devices script will generate 4 more numbers - these are simple checksum or verification numbers. These last 4 digits are generated based on previous randomly generated digits.
+For each device add one image1.jpg file.
 
-The whole, 12 digit code can be manually transferred to verification.html to check whether the code is correct or not.
+The user after logging into each device will get one portion of a two-digit numeral code. It means logging to all 4 devices will generate a random 8 digit code. After getting all 4 devices script will generate 2 more numbers - these are simple checksum or verification numbers. These last 2 digits are generated based on previous randomly generated digits.
 
-Warning - this example is not extremely easy to hack, but it's not encrypted in any way and can be cheated on. It is recommended not to use this example in money sensitive cases (like merch giveaway, free entries, or discounts). Use it as a scenario example or for digital rewards.
+The whole, 10 digit code can be manually transferred to verification.html to check whether the code is correct or not.
+
+Warning - this example is quite easy to hack, it's not encrypted in any way and can be cheated on (by sharing codes). It is recommended not to use this example in money sensitive cases (like merch giveaway, free entries, or discounts). Use it as a scenario example for further development or for digital rewards.
 
 ### 7.5 Testing
 
@@ -776,9 +778,4 @@ If there are some problems with a webpage, you are using any collecting scenario
     - include styles inside index.html
     - pack scripts into single gz files or include them in the index.html file.
 - keep all media as lightweight as possible - transfer rates are not great and sometimes even image sprites are not enough to prevent device restart during download.
-- event example is not extremely easy to hack, but it's not encrypted in any way and can be cheated on. It is recommended not to use this example in money sensitive cases (like merch giveaway, free entries, or discounts). Use it as a scenario example or for digital rewards.
-
-### 8.1 TODO
-
-- create HTML file for events scenario
-- add illustrations for scenarios
+- event example is quite easy to hack, it's not encrypted in any way and can be cheated on (by sharing codes). It is recommended not to use this example in money sensitive cases (like merch giveaway, free entries, or discounts). Use it as a scenario example for further development or for digital rewards.
