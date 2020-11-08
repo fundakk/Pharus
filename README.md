@@ -1,5 +1,7 @@
 # Pharus
 
+![Wemos](/images/pharus_logo.png)
+
 ## Table of Content
 
 - [1. Idea](#1-idea)
