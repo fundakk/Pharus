@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html style="height: 100%; font-family: Helvetica; display: inline-block; margin: 0px auto; text-align: center; color: white;">
+	<head>
+		<style>
+			p.code{
+				display: table-cell;
+				vertical-align: middle;
+				text-align: center;
+				font-size: 7vw;
+			}
+			h1.title{
+				display: table-cell;
+				vertical-align: middle;
+				text-align: center;
+			}
+			div{
+				height: 20%;
+				float: left;
+				background-color: black;
+				display: table;
+			}
+			div.code_border{
+				width:5%;
+			}
+			div.code_text{
+				width:10%;
+			}
+		</style>
+	</head>
+
+	<body style="height: calc(100% - 1em); background-color: black">
+	
+		<script>
+			if(localStorage.part2 != "1"){
+				localStorage.part2 = "1";
+				localStorage.part2_code = Math.floor(Math.random() * 100);
+			}
+		</script>
+		
+		<div style="width: 100%; height: 20%; float: left; background-color: black; display: table">
+			<h1 class="title">
+				TITLE
+			</h1>
+		</div>
+
+		<div style="width: 100%; height: 60%; float: left; background-image: url('image1.jpg'); background-size: contain; background-color: black; background-repeat: no-repeat; background-position: 50% 50%; pointer-events: none">
+
+		</div>
+
+		<div class="code_border">	
+		</div>
+		<div class="code_text">
+			<p id="p1" class="code">
+				XX
+			</p>
+		</div>
+		<div class="code_text">
+			<p class="code">
+				-
+			</p>
+		</div>
+		<div class="code_text">
+			<p id="p2" class="code">
+				XX
+			</p>
+		</div>
+		<div class="code_text">
+			<p class="code">
+				-
+			</p>
+		</div>
+		<div class="code_text">
+			<p id="p3" class="code">
+				XX
+			</p>
+		</div>
+		<div class="code_text">
+			<p class="code">
+				-
+			</p>
+		</div>
+		<div class="code_text">
+			<p id="p4" class="code">
+				XX
+			</p>
+		</div>
+		<div class="code_text">
+			<p class="code">
+				-
+			</p>
+		</div>
+		<div class="code_text">
+			<p id="p5" class="code">
+				XX
+			</p>
+		</div>
+		<div class="code_border">	
+		</div>
+
+		<script>
+
+			if(localStorage.part1 == "1"){
+				document.getElementById("p1").innerHTML = localStorage.part1_code;
+			}
+			if(localStorage.part2 == "1"){
+				document.getElementById("p2").innerHTML = localStorage.part2_code;
+			}
+			if(localStorage.part3 == "1"){
+				document.getElementById("p3").innerHTML = localStorage.part3_code;
+			}
+			if(localStorage.part4 == "1"){
+				document.getElementById("p4").innerHTML = localStorage.part4_code;
+			}
+			if(localStorage.part1 == "1"){
+				if(localStorage.part2 == "1"){
+					if(localStorage.part3 == "1"){
+						if(localStorage.part4 == "1"){
+							var i;
+							var numeric_code;
+							var final_code;
+							final_code = 0;
+							
+							numeric_code = parseInt(localStorage.part1_code) * parseInt(localStorage.part2_code) + parseInt(localStorage.part3_code) * parseInt(localStorage.part4_code);
+							numeric_code = numeric_code.toString();
+							
+							for (i = 0; i < numeric_code.length; i++){
+								final_code = final_code + parseInt(numeric_code.substr(i,1));
+							}
+							document.getElementById("p5").innerHTML = final_code;
+						}
+					}
+				}
+			}
+
+
+
+		</script>
+		
+	</body>
+	
+</html>

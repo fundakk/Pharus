@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html style="height: 100%; font-family: Helvetica; display: inline-block; margin: 0px auto; text-align: center; color: white;">
+	<head>
+		<style>
+			p.code{
+				display: table-cell;
+				vertical-align: middle;
+				text-align: center;
+				font-size: 7vw;
+			}
+			h1.title{
+				display: table-cell;
+				vertical-align: middle;
+				text-align: center;
+			}
+			div{
+				height: 20%;
+				float: left;
+				background-color: black;
+				display: table;
+			}
+			h1.result{
+				display: table-cell;
+				vertical-align: middle;
+				text-align: center;
+			}
+		</style>
+	</head>
+
+	<body style="height: calc(100% - 1em); background-color: black">
+	
+		<script>
+			function check() {
+			
+				var code;
+				var i;
+				var temp_code;
+				var value1;
+				var value2;
+				var value3;
+				var value4;
+				var value5;
+				var value1234;
+				var final_code;
+				
+				code = document.getElementById("input_form").value;
+				temp_code = code;
+				
+				value1 = temp_code.slice(0, temp_code.indexOf("-"));
+				temp_code = temp_code.slice(temp_code.indexOf("-") + 1);
+				value2 = temp_code.slice(0, temp_code.indexOf("-"));
+				temp_code = temp_code.slice(temp_code.indexOf("-") + 1);
+				value3 = temp_code.slice(0, temp_code.indexOf("-"));
+				temp_code = temp_code.slice(temp_code.indexOf("-") + 1);
+				value4 = temp_code.slice(0, temp_code.indexOf("-"));
+				temp_code = temp_code.slice(temp_code.indexOf("-") + 1);
+				value5 = temp_code;
+				
+				value1234 = parseInt(value1) * parseInt(value2) + parseInt(value3) * parseInt(value4);
+				
+				value1234 = value1234.toString();
+				final_code = 0;
+				
+				for (i = 0; i < value1234.length; i++){
+					final_code = final_code + parseInt(value1234.substr(i,1));
+				}
+
+				if(parseInt(final_code) == parseInt(value5)){
+					document.getElementById("answer").innerHTML = code + "<br>CODE VALID";
+					document.getElementById("answer").style.color = "green";
+					
+				} else{
+					document.getElementById("answer").innerHTML = code + "<br>CODE INVALID";
+					document.getElementById("answer").style.color = "red";
+				}
+			}
+		</script>
+		
+		<div style="width: 100%; height: 20%; float: left; background-color: black; display: table">
+			<h1 class="title">
+				ENTER CODE WITH DASHES
+			</h1>
+		</div>
+		
+		<div style="width: 100%">
+			<form id="frm1" action="/action_page.php">
+				<input id="input_form" type="text" style="text-align: center; font-size: 5vw; width: 80%; padding: 10px 20px; margin: 0 0; display: inline-block; border: 1px solid #ccc; border-radius: 4px; box-sizing: border-box;">
+				<input type="button" onclick="check()" value="CHECK" style="width: 40%; height: 50px; background-color: gray; color: white; margin: 10% 0%; border: none; border-radius: 4px;">
+			</form>
+		</div>
+		<div style="width: 100%; height: 20%; float: left; background-color: black; display: table">
+			<h1 id="answer" class="result" style="color: WHITE">
+				RESULT
+			</h1>
+		</div>
+
+		
+	</body>
+	
+</html>
