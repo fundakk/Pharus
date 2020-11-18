@@ -49,7 +49,7 @@ void setup() {
   Serial.println("::::/SD::::");
   Serial.println("");
 
-  WiFi.softAP("Strajk_Kobiet_Zaloguj_sie");
+  WiFi.softAP(ssid);
   dnsServer.start(53, "*", WiFi.softAPIP());
   Serial.println(WiFi.softAPIP());
 
