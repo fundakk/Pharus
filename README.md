@@ -21,7 +21,7 @@
   - [5.1 Basic Scenarios](#51-basic-scenarios)
   - [5.2 Gamification](#52-gamification)
   - [5.3 Event scenarios](#53-event-scenarios)
-- [6. Weatherproof Case](#5-weatherproof-case)
+- [6. Weatherproof Case](#6-weatherproof-case)
   - [6.1 Parts](#61-parts)
   - [6.2 Printer setup](#62-printer-setup)
 - [7. Step by step setup example](#7-step-by-step-setup-example)
