@@ -165,7 +165,12 @@ Include libraries
 	#include "ESPAsyncWebServer.h"
 	#include "SD.h"
 	#include <Wire.h>
+	
+Here you can change SSID name:
 
+	//CHANGE YOUR SSID NAME HERE
+	const char* ssid = "PHARUS"
+	
 Declare DNS server and Web Server
 
 	DNSServer dnsServer;
@@ -190,7 +195,7 @@ Declare new handler class
 	};
 
 
-This part is self-explanatory. It's starting serial communication, initializing SD card (and printing of what is on that card), and starting Wi-Fi Access Point and DNS server. You can change `WiFi.softAP("Pharus");` to your desired hotspot name.
+This part is self-explanatory. It's starting serial communication, initializing SD card (and printing of what is on that card), and starting Wi-Fi Access Point and DNS server.
 
 	void setup() {
 	  Serial.begin(115200);
@@ -213,7 +218,7 @@ This part is self-explanatory. It's starting serial communication, initializing 
 	  Serial.println("::::/SD::::");
 	  Serial.println("");
 
-	  WiFi.softAP("Pharus");
+	  WiFi.softAP(ssid);
 	  dnsServer.start(53, "*", WiFi.softAPIP());
 	  Serial.println(WiFi.softAPIP());
 
