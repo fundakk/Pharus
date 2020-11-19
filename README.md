@@ -466,7 +466,7 @@ Example of use:
 
 #### 5.2.2 Levelling
 
-![Illustration](/images/Levelling.png)
+![Illustration](/images/Leveling.png)
 
 Designed to rather lightweight events, this scenario is based on collecting experience points instead of parts of the collection. It can provide deeper involvement - except for collecting elements, it includes a psychological element of progress and achievements. But due to the fact that it is clearly a gaming solution, it might not be interesting to some groups of visitors and even lower the rank of event, so it should be used carefully, and it fits more into "fun" festivals or activates designed for a younger audience.
 
@@ -487,7 +487,7 @@ Examples of use:
 
 ### 5.3 Event scenarios
 
-![Illustration](/images/Event.png)
+![Illustration](/images/Events.png)
 
 Event scenarios are the last level of engagement for visitors and are plainly a commercial form of rewarding activity. They are purely based on gamification scenarios that add extra, real world prizes. They should be thoroughly considered since making them too easy (or easy to cheat) with too big of a reward could have a disastrous impact on the event budget or at least public relations.
 
