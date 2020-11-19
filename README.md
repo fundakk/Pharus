@@ -384,6 +384,8 @@ Three sub scenarios can be included in its usage:
 
 #### 5.1.1 Substantive comment
 
+![Illustration](/images/Substantive.png)
+
 This scenario allows adding extended explanation, comment, history fact, author biography to a presented art piece when no other forms are available. It would apply mostly to historical points, big scale installations, urban art, murals, or mappings, where scale or location do not allow to add a printed description, or it would be easily missed.
 
 Examples of use:
@@ -394,6 +396,8 @@ Examples of use:
 
 #### 5.1.2 Scattered content
 
+![Illustration](/images/Scattered.png)
+
 Scattering content allows taking art outside of the exhibition area. Multiple devices located in different places (within the city, country, or even globally), allows to scatter visitors and apply more social distancing in terms of art delivery. Each device will deliver single artwork in digital form. Scattering also allows moving some forms of art to places with more ambience.
 
 Example of use:
@@ -403,6 +407,8 @@ Example of use:
 - any artist can place devices in public spaces or bars, as a form of expression or self-promotion.
 
 #### 5.1.3 Extended content
+
+![Illustration](/images/Extended.png)
 
 Extended content is similar to a substantive comment, but instead of delivering comments or other text, it will deliver other art in digital form. It would fit in galleries, or at art exhibitions, where limited space (or budget) does not allow to put extra artworks.
 
@@ -439,6 +445,8 @@ Since there is a lot of possible applications, only a few will be shown with an 
 
 #### 5.2.1 Collecting
 
+![Illustration](/images/Collecting.png)
+
 Collecting elements increase the user's activity, because each element of the collection have a bigger value than a single one. People are naturally conditioned to fill holes and complete patterns, so that’s why a person that has not visited all sites at the festival, will go to the last one, just to complete the collection.
 
 This scenario allows users to visit multiple destinations, log into each one of them, and because of logging in, collect part of the reward. This could be:
@@ -458,6 +466,8 @@ Example of use:
 
 #### 5.2.2 Levelling
 
+![Illustration](/images/Levelling.png)
+
 Designed to rather lightweight events, this scenario is based on collecting experience points instead of parts of the collection. It can provide deeper involvement - except for collecting elements, it includes a psychological element of progress and achievements. But due to the fact that it is clearly a gaming solution, it might not be interesting to some groups of visitors and even lower the rank of event, so it should be used carefully, and it fits more into "fun" festivals or activates designed for a younger audience.
 
 Example of use:
@@ -467,6 +477,8 @@ Example of use:
 
 #### 5.2.3 Riddles solving
 
+![Illustration](/images/Riddles.png)
+
 It can improve both leveling and collecting by adding a more advanced element of solving any kind of riddles. This could greatly benefit storytelling scenarios.
 
 Examples of use:
@@ -474,6 +486,8 @@ Examples of use:
 - kids at the museum, after logging into the network, and before being able to level up, are required to answer a question with a piece of knowledge that can be found around the perimeter, which will stimulate learning.
 
 ### 5.3 Event scenarios
+
+![Illustration](/images/Event.png)
 
 Event scenarios are the last level of engagement for visitors and are plainly a commercial form of rewarding activity. They are purely based on gamification scenarios that add extra, real world prizes. They should be thoroughly considered since making them too easy (or easy to cheat) with too big of a reward could have a disastrous impact on the event budget or at least public relations.
 
